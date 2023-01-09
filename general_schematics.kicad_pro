@@ -484,6 +484,18 @@
     [
       "891f98c0-3628-49fd-a4d5-1cf0156a22a0",
       "Buck"
+    ],
+    [
+      "0795014e-5257-4163-bd2a-866461c84c15",
+      "basic components"
+    ],
+    [
+      "bccc2f0e-4293-4340-930b-a120cb08f970",
+      "atmega2560"
+    ],
+    [
+      "4377a106-93b9-41cd-88a1-8112c9568850",
+      "voltageRegulator"
     ]
   ],
   "text_variables": {}
