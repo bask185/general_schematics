@@ -496,6 +496,14 @@
     [
       "4377a106-93b9-41cd-88a1-8112c9568850",
       "voltageRegulator"
+    ],
+    [
+      "061d5b60-6a9d-4005-baf0-f56c3f730e99",
+      "eeprom"
+    ],
+    [
+      "f116f1dc-01c8-4814-8d61-d90cc9ea71c4",
+      "CH340"
     ]
   ],
   "text_variables": {}
