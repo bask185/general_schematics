@@ -684,7 +684,7 @@
       (reference "C?") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/2aa0754c-169a-4af4-afec-7374b18cb491/f74c1147-0f6c-4852-95d4-43a254720c79"
-      (reference "C?") (unit 1) (value "~") (footprint "")
+      (reference "C?") (unit 1) (value "~") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/24c7b812-0464-4107-8c17-8ee3c878cf97/a8c9ac0a-1e4f-4ed0-b1c7-b33608a1979b"
       (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SMA")
