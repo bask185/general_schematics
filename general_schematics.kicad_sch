@@ -8,28 +8,6 @@
   )
 
 
-  (text "NOT MAINTAINED" (at 99.06 59.69 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 31dd1ce0-a51b-4bc1-8172-cf6b8f236412)
-  )
-
-  (sheet (at 173.99 55.88) (size 20.32 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 061d5b60-6a9d-4005-baf0-f56c3f730e99)
-    (property "Sheetname" "eeprom" (at 173.99 55.1684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "eeprom.kicad_sch" (at 173.99 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "19"))
-      )
-    )
-  )
-
   (sheet (at 148.59 85.09) (size 20.32 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -43,40 +21,6 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 98.425 85.725) (size 17.145 17.145) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 24c7b812-0464-4107-8c17-8ee3c878cf97)
-    (property "Sheetname" "Lnet-B" (at 98.425 85.0134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Lnet-B.kicad_sch" (at 98.425 103.4546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 98.425 32.385) (size 17.145 15.875) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2aa0754c-169a-4af4-afec-7374b18cb491)
-    (property "Sheetname" "Xnet" (at 98.425 31.6734 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Xnet.kicad_sch" (at 98.425 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "4"))
       )
     )
   )
@@ -144,23 +88,6 @@
     )
   )
 
-  (sheet (at 148.59 55.88) (size 20.32 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 891f98c0-3628-49fd-a4d5-1cf0156a22a0)
-    (property "Sheetname" "Buck" (at 148.59 55.1684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Buck.kicad_sch" (at 148.59 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "15"))
-      )
-    )
-  )
-
   (sheet (at 98.425 112.395) (size 17.145 19.685) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -212,23 +139,6 @@
     )
   )
 
-  (sheet (at 98.425 55.88) (size 17.145 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a7d85686-7a14-42cb-a9ba-a733939afcf7)
-    (property "Sheetname" "Lnet-T" (at 98.425 55.1684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Lnet-T.kicad_sch" (at 98.425 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "5"))
-      )
-    )
-  )
-
   (sheet (at 124.46 111.76) (size 20.32 20.32) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -246,14 +156,14 @@
     )
   )
 
-  (sheet (at 175.26 33.02) (size 19.05 15.24) (fields_autoplaced)
+  (sheet (at 152.4 33.02) (size 19.05 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid bccc2f0e-4293-4340-930b-a120cb08f970)
-    (property "Sheetname" "atmega2560" (at 175.26 32.3084 0)
+    (property "Sheetname" "atmega2560" (at 152.4 32.3084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "atmega2560.kicad_sch" (at 175.26 48.8446 0)
+    (property "Sheetfile" "atmega2560.kicad_sch" (at 152.4 48.8446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -293,40 +203,6 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 173.99 85.09) (size 20.32 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f116f1dc-01c8-4814-8d61-d90cc9ea71c4)
-    (property "Sheetname" "CH340" (at 173.99 84.3784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "CH340.kicad_sch" (at 173.99 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "20"))
-      )
-    )
-  )
-
-  (sheet (at 148.59 33.02) (size 20.32 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f45deb4c-210f-430e-87b5-c6786dfa45a7)
-    (property "Sheetname" "Atmega328_w_crystal" (at 148.59 32.3084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Atmega328_w_crystal.kicad_sch" (at 148.59 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "14"))
       )
     )
   )

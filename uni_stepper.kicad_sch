@@ -538,7 +538,7 @@
   (symbol (lib_id "power:GND") (at 105.41 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63667a89-e8a9-4520-b35d-fc53fd34738b)
-    (property "Reference" "#PWR02" (at 105.41 107.95 0)
+    (property "Reference" "#PWR0101" (at 105.41 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 106.0434 0)
@@ -554,7 +554,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/9476ca91-c6eb-46e7-bd6a-31c98618510b"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -563,7 +563,7 @@
   (symbol (lib_id "Transistor_Array:ULN2003") (at 105.41 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a5c322f-088d-4618-aa76-802189febc2f)
-    (property "Reference" "U1" (at 105.41 67.4202 0)
+    (property "Reference" "U201" (at 105.41 67.4202 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ULN2003" (at 105.41 69.9571 0)
@@ -594,7 +594,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/9476ca91-c6eb-46e7-bd6a-31c98618510b"
-          (reference "U1") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -603,7 +603,7 @@
   (symbol (lib_id "Motor:Stepper_Motor_unipolar_5pin") (at 132.715 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a613cff0-58fd-4704-ad8a-43e5692dfccf)
-    (property "Reference" "M1" (at 136.7282 88.9924 0)
+    (property "Reference" "M201" (at 136.7282 88.9924 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "unipolair motor" (at 136.7282 91.5293 0)
@@ -623,7 +623,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/9476ca91-c6eb-46e7-bd6a-31c98618510b"
-          (reference "M1") (unit 1)
+          (reference "M201") (unit 1)
         )
       )
     )
@@ -632,7 +632,7 @@
   (symbol (lib_id "power:+5V") (at 127.635 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aacd2849-e9a8-4784-a062-7445f7782d09)
-    (property "Reference" "#PWR01" (at 127.635 70.485 0)
+    (property "Reference" "#PWR0102" (at 127.635 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 127.635 63.0992 0)
@@ -648,7 +648,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/9476ca91-c6eb-46e7-bd6a-31c98618510b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )

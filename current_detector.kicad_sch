@@ -910,7 +910,7 @@
   (symbol (lib_id "Device:R") (at 139.7 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19eb5b52-b49d-487a-ab41-b8b0b6ff4791)
-    (property "Reference" "R36" (at 141.478 91.8753 0)
+    (property "Reference" "R1201" (at 141.478 91.8753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 140.97 93.98 0)
@@ -927,7 +927,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "R36") (unit 1)
+          (reference "R1201") (unit 1)
         )
       )
     )
@@ -936,7 +936,7 @@
   (symbol (lib_id "Device:D_Bridge_+-AA") (at 123.19 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b98980b-9107-48c5-bead-c45614047ce5)
-    (property "Reference" "D25" (at 128.27 93.98 0)
+    (property "Reference" "D1201" (at 128.27 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 128.27 102.87 0)
@@ -955,7 +955,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "D25") (unit 1)
+          (reference "D1201") (unit 1)
         )
       )
     )
@@ -964,7 +964,7 @@
   (symbol (lib_id "Device:R") (at 158.75 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3724bc35-2b6e-4ac6-b2db-51ca45d97037)
-    (property "Reference" "R35" (at 160.528 90.6053 0)
+    (property "Reference" "R1202" (at 160.528 90.6053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 160.02 92.71 0)
@@ -981,7 +981,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "R35") (unit 1)
+          (reference "R1202") (unit 1)
         )
       )
     )
@@ -990,7 +990,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 176.53 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ee2de6c-7979-4422-891e-465c621d67c6)
-    (property "Reference" "J15" (at 177.2412 100.7653 0)
+    (property "Reference" "J1203" (at 177.2412 100.7653 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ter" (at 177.2412 103.3022 0)
@@ -1008,7 +1008,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "J15") (unit 1)
+          (reference "J1203") (unit 1)
         )
       )
     )
@@ -1017,7 +1017,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 101.6 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7405e054-1e94-42e5-bc73-0a1f674dc7a3)
-    (property "Reference" "J13" (at 101.6 91.5502 0)
+    (property "Reference" "J1201" (at 101.6 91.5502 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "tracks" (at 101.6 94.0871 0)
@@ -1034,7 +1034,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "J13") (unit 1)
+          (reference "J1201") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 165.1 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd146b96-34b0-4713-b20d-c20f6be28a35)
-    (property "Reference" "J14" (at 165.1 94.0902 0)
+    (property "Reference" "J1202" (at 165.1 94.0902 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ter" (at 165.1 96.6271 0)
@@ -1061,7 +1061,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "J14") (unit 1)
+          (reference "J1202") (unit 1)
         )
       )
     )
@@ -1070,7 +1070,7 @@
   (symbol (lib_id "power:+5V") (at 168.91 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be59a9eb-2247-4ea2-9519-ea815bdc0562)
-    (property "Reference" "#PWR049" (at 168.91 90.17 0)
+    (property "Reference" "#PWR0134" (at 168.91 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 168.91 82.7842 0)
@@ -1086,7 +1086,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
   (symbol (lib_id "power:GND") (at 168.91 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d413409d-ff6f-42ab-a018-6419e8875a06)
-    (property "Reference" "#PWR050" (at 168.91 116.84 0)
+    (property "Reference" "#PWR0133" (at 168.91 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 114.9334 0)
@@ -1111,7 +1111,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -1120,7 +1120,7 @@
   (symbol (lib_id "Isolator:EL814") (at 147.32 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f643f6b0-0c80-4067-899b-4cb972a6ef52)
-    (property "Reference" "U13" (at 149.86 95.25 0)
+    (property "Reference" "U1201" (at 149.86 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL814" (at 147.32 96.6271 0)
@@ -1139,7 +1139,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/f6483e49-7b85-4a34-9d17-dfb7f9079bae"
-          (reference "U13") (unit 1)
+          (reference "U1201") (unit 1)
         )
       )
     )

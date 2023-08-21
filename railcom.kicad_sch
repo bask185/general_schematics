@@ -1321,7 +1321,7 @@
   (symbol (lib_id "Diode:1N4004") (at 81.28 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f15a39d-b68b-44aa-a098-bb012386f038)
-    (property "Reference" "D21" (at 79.248 65.6047 90)
+    (property "Reference" "D1002" (at 79.248 65.6047 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4004" (at 83.82 68.58 0)
@@ -1338,7 +1338,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "D21") (unit 1)
+          (reference "D1002") (unit 1)
         )
       )
     )
@@ -1347,7 +1347,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 116.84 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10ec4e68-1530-4eb4-9f79-ee7c4420f4e0)
-    (property "Reference" "C10" (at 119.761 77.0163 0)
+    (property "Reference" "C1004" (at 119.761 77.0163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 116.84 81.28 0)
@@ -1364,7 +1364,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "C10") (unit 1)
+          (reference "C1004") (unit 1)
         )
       )
     )
@@ -1373,7 +1373,7 @@
   (symbol (lib_id "Device:R") (at 186.69 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b373285-5a20-4e40-8fee-03a581e4bee3)
-    (property "Reference" "R26" (at 188.468 43.6153 0)
+    (property "Reference" "R1009" (at 188.468 43.6153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 188.468 46.1522 0)
@@ -1390,7 +1390,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R26") (unit 1)
+          (reference "R1009") (unit 1)
         )
       )
     )
@@ -1399,7 +1399,7 @@
   (symbol (lib_id "Comparator:LM339") (at 125.73 93.98 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25124414-b613-4d02-a08b-5f8124e8155e)
-    (property "Reference" "U9" (at 114.3 92.71 0)
+    (property "Reference" "U1002" (at 114.3 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM339" (at 114.3 95.25 0)
@@ -1428,7 +1428,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U9") (unit 5)
+          (reference "U1002") (unit 5)
         )
       )
     )
@@ -1437,7 +1437,7 @@
   (symbol (lib_id "74xx:74HC02") (at 199.39 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c1725fa-ebee-4334-a704-4ed43513de86)
-    (property "Reference" "U10" (at 199.39 89.0102 0)
+    (property "Reference" "U1003" (at 199.39 89.0102 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC02" (at 199.39 91.5471 0)
@@ -1466,7 +1466,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U10") (unit 1)
+          (reference "U1003") (unit 1)
         )
       )
     )
@@ -1475,7 +1475,7 @@
   (symbol (lib_id "Diode:1N4004") (at 99.06 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c9cd398-641a-4f8f-bdfe-97a7059d60c0)
-    (property "Reference" "D24" (at 101.092 99.4953 90)
+    (property "Reference" "D1003" (at 101.092 99.4953 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4004" (at 101.092 102.0322 90)
@@ -1492,7 +1492,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "D24") (unit 1)
+          (reference "D1003") (unit 1)
         )
       )
     )
@@ -1501,7 +1501,7 @@
   (symbol (lib_id "Diode:1N4004") (at 69.85 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35a6e2cf-50dc-43fa-ad25-909e9221bfd1)
-    (property "Reference" "D20" (at 71.882 63.9353 90)
+    (property "Reference" "D1001" (at 71.882 63.9353 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4004" (at 67.31 60.96 0)
@@ -1518,7 +1518,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "D20") (unit 1)
+          (reference "D1001") (unit 1)
         )
       )
     )
@@ -1527,7 +1527,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 81.28 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 403b4b23-8459-4843-a01b-6a28d4d59f91)
-    (property "Reference" "C11" (at 84.201 90.9863 0)
+    (property "Reference" "C1002" (at 84.201 90.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 82.55 95.25 0)
@@ -1544,7 +1544,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "C11") (unit 1)
+          (reference "C1002") (unit 1)
         )
       )
     )
@@ -1553,7 +1553,7 @@
   (symbol (lib_id "Device:R") (at 139.7 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4686c779-ca30-40e1-8381-0b0ed533f163)
-    (property "Reference" "R27" (at 141.478 58.8553 0)
+    (property "Reference" "R1004" (at 141.478 58.8553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 141.478 61.3922 0)
@@ -1570,7 +1570,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R27") (unit 1)
+          (reference "R1004") (unit 1)
         )
       )
     )
@@ -1579,7 +1579,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 81.28 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fb9ce34-4de2-4ca2-af66-2114bbdcf6d0)
-    (property "Reference" "C8" (at 84.201 77.0163 0)
+    (property "Reference" "C1001" (at 84.201 77.0163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF" (at 81.28 81.28 0)
@@ -1596,7 +1596,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "C8") (unit 1)
+          (reference "C1001") (unit 1)
         )
       )
     )
@@ -1605,7 +1605,7 @@
   (symbol (lib_id "Device:R") (at 139.7 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71c83276-31e7-4ca1-8d6f-32b48ddc7e0e)
-    (property "Reference" "R29" (at 141.478 88.0653 0)
+    (property "Reference" "R1005" (at 141.478 88.0653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "820R" (at 141.478 90.6022 0)
@@ -1622,7 +1622,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R29") (unit 1)
+          (reference "R1005") (unit 1)
         )
       )
     )
@@ -1631,7 +1631,7 @@
   (symbol (lib_id "Comparator:LM339") (at 161.29 50.8 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81854e3f-3c6e-4baa-bb7c-63ef01a28af7)
-    (property "Reference" "U9" (at 161.29 42.0202 0)
+    (property "Reference" "U1002" (at 161.29 42.0202 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM339" (at 161.29 44.5571 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U9") (unit 1)
+          (reference "U1002") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "Diode:1N5400") (at 147.32 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86c42da9-fb5a-48aa-83ec-81fd32b38122)
-    (property "Reference" "D22" (at 147.32 66.1502 0)
+    (property "Reference" "D1004" (at 147.32 66.1502 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5400" (at 147.32 68.6871 0)
@@ -1686,7 +1686,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "D22") (unit 1)
+          (reference "D1004") (unit 1)
         )
       )
     )
@@ -1695,7 +1695,7 @@
   (symbol (lib_id "Device:R") (at 90.17 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8824f59a-461d-4a96-9a87-dc0c2e39d8ce)
-    (property "Reference" "R32" (at 90.17 107.0442 90)
+    (property "Reference" "R1002" (at 90.17 107.0442 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 90.17 109.5811 90)
@@ -1712,7 +1712,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R32") (unit 1)
+          (reference "R1002") (unit 1)
         )
       )
     )
@@ -1721,7 +1721,7 @@
   (symbol (lib_id "Comparator:LM339") (at 161.29 99.06 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cf694ce-ddb0-493d-88cc-cae2f3cc88d6)
-    (property "Reference" "U9" (at 161.29 90.2802 0)
+    (property "Reference" "U1002" (at 161.29 90.2802 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM339" (at 161.29 92.8171 0)
@@ -1750,7 +1750,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U9") (unit 2)
+          (reference "U1002") (unit 2)
         )
       )
     )
@@ -1759,7 +1759,7 @@
   (symbol (lib_id "74xx:74HC02") (at 172.72 66.04 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4de1258-6b9e-4061-8968-0eed92b6dbf8)
-    (property "Reference" "U10" (at 161.29 66.04 0)
+    (property "Reference" "U1003" (at 161.29 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC02" (at 158.75 68.58 0)
@@ -1788,7 +1788,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U10") (unit 5)
+          (reference "U1003") (unit 5)
         )
       )
     )
@@ -1797,7 +1797,7 @@
   (symbol (lib_id "Device:R") (at 69.85 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba442f3e-325d-4dec-93a4-e68aadfb376d)
-    (property "Reference" "R30" (at 71.628 99.4953 0)
+    (property "Reference" "R1001" (at 71.628 99.4953 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220R" (at 71.628 102.0322 0)
@@ -1814,7 +1814,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R30") (unit 1)
+          (reference "R1001") (unit 1)
         )
       )
     )
@@ -1823,7 +1823,7 @@
   (symbol (lib_id "Device:R") (at 179.07 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c29ea365-9c6c-4b19-98d2-823058f79aa5)
-    (property "Reference" "R25" (at 180.848 43.6153 0)
+    (property "Reference" "R1008" (at 180.848 43.6153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 180.848 46.1522 0)
@@ -1840,7 +1840,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R25") (unit 1)
+          (reference "R1008") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
   (symbol (lib_id "Device:R") (at 147.32 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf146564-1e9f-4646-9ee8-c12e61b8cfed)
-    (property "Reference" "R28" (at 147.32 85.09 90)
+    (property "Reference" "R1007" (at 147.32 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1R8" (at 147.32 87.63 90)
@@ -1866,7 +1866,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R28") (unit 1)
+          (reference "R1007") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "Diode:1N5400") (at 147.32 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d83b6ba6-81a8-4d67-8e31-c4b5adc7bddd)
-    (property "Reference" "D23" (at 147.32 77.47 0)
+    (property "Reference" "D1005" (at 147.32 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5400" (at 147.32 80.01 0)
@@ -1892,7 +1892,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "D23") (unit 1)
+          (reference "D1005") (unit 1)
         )
       )
     )
@@ -1901,7 +1901,7 @@
   (symbol (lib_id "Regulator_Linear:L78L05_TO92") (at 99.06 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8665457-a114-47c3-8a9e-4dd7c717294d)
-    (property "Reference" "U11" (at 99.06 69.3252 0)
+    (property "Reference" "U1001" (at 99.06 69.3252 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L78L05_TO92" (at 99.06 71.8621 0)
@@ -1919,7 +1919,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "U11") (unit 1)
+          (reference "U1001") (unit 1)
         )
       )
     )
@@ -1928,7 +1928,7 @@
   (symbol (lib_id "Device:R") (at 139.7 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbe58dad-54b6-43e3-b1dc-76cc447ec74c)
-    (property "Reference" "R24" (at 141.478 42.3453 0)
+    (property "Reference" "R1003" (at 141.478 42.3453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270k" (at 141.478 44.8822 0)
@@ -1945,7 +1945,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R24") (unit 1)
+          (reference "R1003") (unit 1)
         )
       )
     )
@@ -1954,7 +1954,7 @@
   (symbol (lib_id "Device:C") (at 107.95 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eec9e959-5b65-417b-920e-adf89c71f075)
-    (property "Reference" "C9" (at 110.871 77.9053 0)
+    (property "Reference" "C1003" (at 110.871 77.9053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 109.22 81.28 0)
@@ -1971,7 +1971,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "C9") (unit 1)
+          (reference "C1003") (unit 1)
         )
       )
     )
@@ -1980,7 +1980,7 @@
   (symbol (lib_id "Device:R") (at 139.7 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc8ad062-cec0-40fa-92af-8488ad0d6714)
-    (property "Reference" "R31" (at 141.478 105.8453 0)
+    (property "Reference" "R1006" (at 141.478 105.8453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 141.478 108.3822 0)
@@ -1997,7 +1997,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/875460ba-42a9-4dc8-b32a-8b7fb9496129"
-          (reference "R31") (unit 1)
+          (reference "R1006") (unit 1)
         )
       )
     )

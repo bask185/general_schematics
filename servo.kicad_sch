@@ -924,7 +924,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 127 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bf5976b-464b-4cf1-bd2e-1051e982b33f)
-    (property "Reference" "RV2" (at 125.2221 77.9053 0)
+    (property "Reference" "RV302" (at 125.2221 77.9053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 125.2221 80.4422 0)
@@ -942,7 +942,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "RV2") (unit 1)
+          (reference "RV302") (unit 1)
         )
       )
     )
@@ -951,7 +951,7 @@
   (symbol (lib_id "Device:R") (at 176.53 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27ee6b1f-1d24-475f-9a90-79b2b58f5482)
-    (property "Reference" "R3" (at 176.53 77.8342 90)
+    (property "Reference" "R302" (at 176.53 77.8342 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 176.53 80.3711 90)
@@ -968,7 +968,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "R3") (unit 1)
+          (reference "R302") (unit 1)
         )
       )
     )
@@ -977,7 +977,7 @@
   (symbol (lib_id "Device:C") (at 141.605 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 302f93ab-a4b1-4ef1-9c64-7ba28f2e60d2)
-    (property "Reference" "C2" (at 144.526 105.2103 0)
+    (property "Reference" "C302" (at 144.526 105.2103 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 144.526 107.7472 0)
@@ -994,7 +994,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "C2") (unit 1)
+          (reference "C302") (unit 1)
         )
       )
     )
@@ -1003,7 +1003,7 @@
   (symbol (lib_id "Device:C") (at 127 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38437d48-f97a-4462-aaca-82570e1f01c5)
-    (property "Reference" "C1" (at 129.921 105.2103 0)
+    (property "Reference" "C301" (at 129.921 105.2103 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 129.921 107.7472 0)
@@ -1020,7 +1020,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "C1") (unit 1)
+          (reference "C301") (unit 1)
         )
       )
     )
@@ -1029,7 +1029,7 @@
   (symbol (lib_id "power:GND") (at 158.75 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f089eba-40b2-4f12-8530-d76d7fa0a904)
-    (property "Reference" "#PWR04" (at 158.75 119.38 0)
+    (property "Reference" "#PWR0103" (at 158.75 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 117.4734 0)
@@ -1045,7 +1045,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1054,7 +1054,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 114.3 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d696755-40e6-422a-8a3a-b042a011ffec)
-    (property "Reference" "RV1" (at 112.5221 77.9053 0)
+    (property "Reference" "RV301" (at 112.5221 77.9053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 112.5221 80.4422 0)
@@ -1072,7 +1072,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "RV1") (unit 1)
+          (reference "RV301") (unit 1)
         )
       )
     )
@@ -1081,7 +1081,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 127 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6de7ebd7-3efd-473e-855e-281756a983ea)
-    (property "Reference" "SW2" (at 128.143 89.3353 90)
+    (property "Reference" "SW302" (at 128.143 89.3353 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "switch" (at 128.143 91.8722 90)
@@ -1098,7 +1098,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "SW2") (unit 1)
+          (reference "SW302") (unit 1)
         )
       )
     )
@@ -1107,7 +1107,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 98.425 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d979ca2-8845-4450-aef8-abfd345d702c)
-    (property "Reference" "J1" (at 98.425 78.8502 0)
+    (property "Reference" "J301" (at 98.425 78.8502 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "pow" (at 98.425 81.3871 0)
@@ -1124,7 +1124,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "J1") (unit 1)
+          (reference "J301") (unit 1)
         )
       )
     )
@@ -1133,7 +1133,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 114.3 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7dc55f5b-d65c-4be9-a755-cb0cba55d819)
-    (property "Reference" "SW1" (at 115.443 89.3353 90)
+    (property "Reference" "SW301" (at 115.443 89.3353 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "switch" (at 115.443 91.8722 90)
@@ -1150,7 +1150,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "SW1") (unit 1)
+          (reference "SW301") (unit 1)
         )
       )
     )
@@ -1159,7 +1159,7 @@
   (symbol (lib_id "Device:R") (at 188.595 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f90d660-eb28-4a2f-b1df-263a396762e4)
-    (property "Reference" "R2" (at 190.373 66.4753 0)
+    (property "Reference" "R303" (at 190.373 66.4753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (at 190.373 69.0122 0)
@@ -1176,7 +1176,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "R2") (unit 1)
+          (reference "R303") (unit 1)
         )
       )
     )
@@ -1185,7 +1185,7 @@
   (symbol (lib_id "Device:R") (at 133.35 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fa5844c-e193-4b0a-b7d1-234329dc8a5a)
-    (property "Reference" "R1" (at 135.128 66.4753 0)
+    (property "Reference" "R301" (at 135.128 66.4753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 135.128 69.0122 0)
@@ -1202,7 +1202,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "R1") (unit 1)
+          (reference "R301") (unit 1)
         )
       )
     )
@@ -1211,7 +1211,7 @@
   (symbol (lib_id "Transistor_BJT:BC547") (at 186.055 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 936e567e-4efb-42a1-b8a2-6715790bef63)
-    (property "Reference" "Q1" (at 190.9064 81.7153 0)
+    (property "Reference" "Q301" (at 190.9064 81.7153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC547" (at 190.9064 84.2522 0)
@@ -1229,7 +1229,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "Q1") (unit 1)
+          (reference "Q301") (unit 1)
         )
       )
     )
@@ -1238,7 +1238,7 @@
   (symbol (lib_id "power:+5V") (at 158.75 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b668febe-88f0-4416-a5f2-52772ef97075)
-    (property "Reference" "#PWR03" (at 158.75 67.31 0)
+    (property "Reference" "#PWR0104" (at 158.75 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 158.75 59.9242 0)
@@ -1254,7 +1254,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1263,7 +1263,7 @@
   (symbol (lib_id "Timer:LM555xN") (at 158.75 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b669ddb2-df2a-4173-bba0-ff7ead320bab)
-    (property "Reference" "U2" (at 160.7694 76.3102 0)
+    (property "Reference" "U301" (at 160.7694 76.3102 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM555xN" (at 160.7694 78.8471 0)
@@ -1286,7 +1286,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "U2") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -1295,7 +1295,7 @@
   (symbol (lib_id "Motor:Motor_Servo") (at 208.28 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9f768cb-80b9-48cb-8b9a-cbd168aebc77)
-    (property "Reference" "M2" (at 216.6398 76.2019 0)
+    (property "Reference" "M301" (at 216.6398 76.2019 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor_Servo" (at 216.6398 78.7388 0)
@@ -1313,7 +1313,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/c8788370-a7f5-4096-b7be-5f9bdb412f73"
-          (reference "M2") (unit 1)
+          (reference "M301") (unit 1)
         )
       )
     )

@@ -45,8 +45,7 @@
         "silk_text_thickness": 0.075,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -111,8 +110,6 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.13999999999999999,
         "min_connection": 0.0,
@@ -197,8 +194,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -423,7 +419,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "general_schematics.kicad_pro",
+    "filename": "deleteme.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -488,18 +484,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -510,56 +496,8 @@
   },
   "sheets": [
     [
-      "e777d9ec-d073-4229-a9e6-2cf85636e407",
+      "72eaf6a4-7c1f-4d34-a026-215ef399ccb7",
       ""
-    ],
-    [
-      "9476ca91-c6eb-46e7-bd6a-31c98618510b",
-      "uni_stepper"
-    ],
-    [
-      "c8788370-a7f5-4096-b7be-5f9bdb412f73",
-      "servo"
-    ],
-    [
-      "c3ae8e23-d3b7-46ce-84c2-3bde61a5ce74",
-      "DCC"
-    ],
-    [
-      "8cef4f13-71e4-4599-8e20-29c3f09ac934",
-      "L298H"
-    ],
-    [
-      "9c8f6162-972e-4a6a-9072-cbd128d102d4",
-      "bipolair_stepper"
-    ],
-    [
-      "875460ba-42a9-4dc8-b32a-8b7fb9496129",
-      "railcom"
-    ],
-    [
-      "38d599ac-34a4-48d6-818e-d419faf54082",
-      "LDR"
-    ],
-    [
-      "f6483e49-7b85-4a34-9d17-dfb7f9079bae",
-      "current_detector"
-    ],
-    [
-      "aabb776b-8585-481a-9ba8-7761b2bc46d6",
-      "edits"
-    ],
-    [
-      "0795014e-5257-4163-bd2a-866461c84c15",
-      "basic components"
-    ],
-    [
-      "bccc2f0e-4293-4340-930b-a120cb08f970",
-      "atmega2560"
-    ],
-    [
-      "4377a106-93b9-41cd-88a1-8112c9568850",
-      "5V LDO"
     ]
   ],
   "text_variables": {}

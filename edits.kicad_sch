@@ -847,7 +847,7 @@
   (symbol (lib_id "Device:D_Small") (at 138.43 82.55 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0919a095-b625-4bf7-8029-b50c56ef8f46)
-    (property "Reference" "D26" (at 140.208 83.3847 90)
+    (property "Reference" "D1301" (at 140.208 83.3847 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Value" "D_Small" (at 140.208 80.8478 90)
@@ -864,7 +864,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "D26") (unit 1)
+          (reference "D1301") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
   (symbol (lib_id "Connector:DIN-5_180degree") (at 199.39 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a13690b-f7bc-46cc-a214-be1a3f381088)
-    (property "Reference" "J16" (at 199.3899 78.8502 0)
+    (property "Reference" "J1301" (at 199.3899 78.8502 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DIN-5_180degree" (at 199.3899 81.3871 0)
@@ -893,7 +893,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "J16") (unit 1)
+          (reference "J1301") (unit 1)
         )
       )
     )
@@ -902,7 +902,7 @@
   (symbol (lib_id "pspice:BSOURCE") (at 233.68 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 424e3620-0db0-428b-974b-c15b97233e1d)
-    (property "Reference" "B1" (at 241.935 79.0483 0)
+    (property "Reference" "B1301" (at 241.935 79.0483 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BSOURCE" (at 241.935 81.5852 0)
@@ -919,7 +919,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "B1") (unit 1)
+          (reference "B1301") (unit 1)
         )
       )
     )
@@ -928,7 +928,7 @@
   (symbol (lib_id "Isolator:EL817") (at 147.32 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59af5284-2524-4646-895d-109022a235dd)
-    (property "Reference" "U14" (at 147.32 88.9 0)
+    (property "Reference" "U1301" (at 147.32 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 147.32 87.5229 0)
@@ -947,7 +947,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "U14") (unit 1)
+          (reference "U1301") (unit 1)
         )
       )
     )
@@ -956,7 +956,7 @@
   (symbol (lib_id "Isolator:EL817") (at 147.32 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5de3aa1a-024d-4771-ac75-2ff0889acc30)
-    (property "Reference" "U15" (at 147.32 92.71 0)
+    (property "Reference" "U1302" (at 147.32 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 147.32 94.0871 0)
@@ -975,7 +975,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "U15") (unit 1)
+          (reference "U1302") (unit 1)
         )
       )
     )
@@ -984,7 +984,7 @@
   (symbol (lib_id "Device:D_Small") (at 138.43 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6533b566-99e1-4b8e-bc4b-8292e0700554)
-    (property "Reference" "D27" (at 136.652 99.8947 90)
+    (property "Reference" "D1302" (at 136.652 99.8947 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Value" "D_Small" (at 136.652 97.3578 90)
@@ -1001,7 +1001,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "D27") (unit 1)
+          (reference "D1302") (unit 1)
         )
       )
     )
@@ -1010,7 +1010,7 @@
   (symbol (lib_id "Device:R") (at 133.35 85.09 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92efa19e-49b2-424d-9fb9-1670d6a414bb)
-    (property "Reference" "R37" (at 133.35 89.8058 90)
+    (property "Reference" "R1301" (at 133.35 89.8058 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1k" (at 133.35 87.2688 90)
@@ -1027,7 +1027,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "R37") (unit 1)
+          (reference "R1301") (unit 1)
         )
       )
     )
@@ -1036,7 +1036,7 @@
   (symbol (lib_id "power:-VDC") (at 154.94 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94dac1e0-55cb-4b44-a109-5de86ab94f1c)
-    (property "Reference" "#PWR052" (at 154.94 102.87 0)
+    (property "Reference" "#PWR0136" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-VDC" (at 154.94 112.5204 0)
@@ -1052,7 +1052,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -1061,7 +1061,7 @@
   (symbol (lib_id "pspice:BSOURCE") (at 233.68 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc68abbb-25c1-48a9-bc7c-e3ce5ff7a3dc)
-    (property "Reference" "B2" (at 241.935 96.8283 0)
+    (property "Reference" "B1302" (at 241.935 96.8283 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BSOURCE" (at 241.935 99.3652 0)
@@ -1078,7 +1078,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "B2") (unit 1)
+          (reference "B1302") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
   (symbol (lib_id "Device:R") (at 133.35 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf8cfe59-6d70-4b1e-bdbe-3e8233f891c9)
-    (property "Reference" "R38" (at 133.35 96.8842 90)
+    (property "Reference" "R1302" (at 133.35 96.8842 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1k" (at 133.35 99.4212 90)
@@ -1104,7 +1104,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "R38") (unit 1)
+          (reference "R1302") (unit 1)
         )
       )
     )
@@ -1113,7 +1113,7 @@
   (symbol (lib_id "power:+VDC") (at 154.94 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df1230bd-1c30-486e-81a1-dec01e0f9468)
-    (property "Reference" "#PWR051" (at 154.94 78.74 0)
+    (property "Reference" "#PWR0135" (at 154.94 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 154.94 69.9572 0)
@@ -1129,7 +1129,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/aabb776b-8585-481a-9ba8-7761b2bc46d6"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )

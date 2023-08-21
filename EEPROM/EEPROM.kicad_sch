@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid d7f277eb-6e20-473e-b13a-a5747959d840)
+  (uuid 7726f3b0-6d28-4a62-ae77-022bfbf3ad3f)
 
   (paper "A4")
 
@@ -270,7 +270,7 @@
   (symbol (lib_id "power:+5V") (at 107.95 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 555c6064-2098-435d-b88f-446820817e69)
-    (property "Reference" "#PWR055" (at 107.95 76.2 0)
+    (property "Reference" "#PWR0154" (at 107.95 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 107.95 67.31 0)
@@ -284,9 +284,14 @@
     )
     (pin "1" (uuid 15d5aa2f-6154-42f4-b5b7-0ebec07fd6dd))
     (instances
+      (project "EEPROM"
+        (path "/7726f3b0-6d28-4a62-ae77-022bfbf3ad3f"
+          (reference "#PWR0801") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/061d5b60-6a9d-4005-baf0-f56c3f730e99"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -295,7 +300,7 @@
   (symbol (lib_id "Memory_EEPROM:24LC256") (at 107.95 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90dc646b-1260-4819-b979-749c6156871c)
-    (property "Reference" "U27" (at 109.9694 77.5802 0)
+    (property "Reference" "U1901" (at 109.9694 77.5802 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24LC256" (at 109.9694 80.1171 0)
@@ -319,9 +324,14 @@
     (pin "7" (uuid 01eb9bdd-a337-4673-a2b0-d209aebe8932))
     (pin "8" (uuid 341059b3-16ac-4fe8-bbe2-921988ba1654))
     (instances
+      (project "EEPROM"
+        (path "/7726f3b0-6d28-4a62-ae77-022bfbf3ad3f"
+          (reference "U801") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/061d5b60-6a9d-4005-baf0-f56c3f730e99"
-          (reference "U27") (unit 1)
+          (reference "U1901") (unit 1)
         )
       )
     )
@@ -330,13 +340,13 @@
   (symbol (lib_id "Device:C") (at 85.09 83.82 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ade9a917-f56b-4b4e-8223-d4a15c0de94f)
-    (property "Reference" "C33" (at 82.169 82.9853 0)
+    (property "Reference" "C1901" (at 82.169 82.9853 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 82.169 85.5222 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 86.0552 80.01 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.0552 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 83.82 0)
@@ -348,11 +358,20 @@
     (pin "1" (uuid 7370207b-f40e-4f9a-964b-d47ba3b20635))
     (pin "2" (uuid fb3e2d6c-4b5a-4d47-a9b4-2295f98d4544))
     (instances
+      (project "EEPROM"
+        (path "/7726f3b0-6d28-4a62-ae77-022bfbf3ad3f"
+          (reference "C801") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/061d5b60-6a9d-4005-baf0-f56c3f730e99"
-          (reference "C33") (unit 1)
+          (reference "C1901") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )

@@ -1830,7 +1830,7 @@
   (symbol (lib_id "power:GND") (at 176.53 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a2f2b5-14aa-4afd-bced-d3d12e759a23)
-    (property "Reference" "#PWR063" (at 176.53 78.74 0)
+    (property "Reference" "#PWR0144" (at 176.53 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 76.8334 0)
@@ -1846,7 +1846,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -1855,7 +1855,7 @@
   (symbol (lib_id "Device:R") (at 58.42 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 077263cb-ae2f-4d18-91a9-5d7bf4bfa35b)
-    (property "Reference" "R60" (at 59.69 46.99 0)
+    (property "Reference" "R1618" (at 59.69 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k3" (at 59.69 54.61 0)
@@ -1875,7 +1875,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R60") (unit 1)
+          (reference "R1618") (unit 1)
         )
       )
     )
@@ -1884,7 +1884,7 @@
   (symbol (lib_id "Device:R") (at 26.67 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 157249ba-3929-4e34-977a-e923a2c46b72)
-    (property "Reference" "R44" (at 27.94 21.59 0)
+    (property "Reference" "R1602" (at 27.94 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R" (at 27.94 29.21 0)
@@ -1904,7 +1904,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R44") (unit 1)
+          (reference "R1602") (unit 1)
         )
       )
     )
@@ -1913,7 +1913,7 @@
   (symbol (lib_id "Device:R") (at 58.42 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1643bd15-e6a6-4aef-ae1f-4362b7f58d3b)
-    (property "Reference" "R66" (at 59.69 59.69 0)
+    (property "Reference" "R1619" (at 59.69 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 59.69 67.31 0)
@@ -1933,7 +1933,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R66") (unit 1)
+          (reference "R1619") (unit 1)
         )
       )
     )
@@ -1942,7 +1942,7 @@
   (symbol (lib_id "Device:R") (at 26.67 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16a61906-b180-4c48-848b-7f50f2104c07)
-    (property "Reference" "R57" (at 27.94 46.99 0)
+    (property "Reference" "R1604" (at 27.94 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 27.94 54.61 0)
@@ -1962,7 +1962,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R57") (unit 1)
+          (reference "R1604") (unit 1)
         )
       )
     )
@@ -1971,7 +1971,7 @@
   (symbol (lib_id "Device:R") (at 48.26 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bf4244f-72e9-40ec-b673-d2c3e6122ba8)
-    (property "Reference" "R65" (at 49.53 59.69 0)
+    (property "Reference" "R1614" (at 49.53 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 49.53 67.31 0)
@@ -1991,7 +1991,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R65") (unit 1)
+          (reference "R1614") (unit 1)
         )
       )
     )
@@ -2000,7 +2000,7 @@
   (symbol (lib_id "Device:R") (at 68.58 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cc9a166-867f-4264-b7c3-e32cfb1cdd02)
-    (property "Reference" "R61" (at 69.85 46.99 0)
+    (property "Reference" "R1623" (at 69.85 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 69.85 54.61 0)
@@ -2020,7 +2020,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R61") (unit 1)
+          (reference "R1623") (unit 1)
         )
       )
     )
@@ -2029,7 +2029,7 @@
   (symbol (lib_id "Device:R") (at 68.58 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e8bd9a2-c40c-487c-a25b-61309389c54e)
-    (property "Reference" "R55" (at 69.85 34.29 0)
+    (property "Reference" "R1622" (at 69.85 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 69.85 41.91 0)
@@ -2049,7 +2049,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R55") (unit 1)
+          (reference "R1622") (unit 1)
         )
       )
     )
@@ -2058,7 +2058,7 @@
   (symbol (lib_id "Device:R") (at 58.42 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f92bed2-89a8-41c9-b068-d1372bdda73f)
-    (property "Reference" "R72" (at 59.69 71.12 0)
+    (property "Reference" "R1620" (at 59.69 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330k" (at 59.69 78.74 0)
@@ -2078,7 +2078,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R72") (unit 1)
+          (reference "R1620") (unit 1)
         )
       )
     )
@@ -2087,7 +2087,7 @@
   (symbol (lib_id "Device:D") (at 111.76 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21101776-7bf7-45f6-bba8-22b494a82db5)
-    (property "Reference" "D34" (at 113.792 49.9653 90)
+    (property "Reference" "D1604" (at 113.792 49.9653 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 113.792 52.5022 90)
@@ -2107,7 +2107,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D34") (unit 1)
+          (reference "D1604") (unit 1)
         )
       )
     )
@@ -2116,7 +2116,7 @@
   (symbol (lib_id "Device:R") (at 68.58 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23357cdb-ee16-40a0-8381-e664af9d764c)
-    (property "Reference" "R67" (at 69.85 59.69 0)
+    (property "Reference" "R1624" (at 69.85 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 69.85 67.31 0)
@@ -2136,7 +2136,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R67") (unit 1)
+          (reference "R1624") (unit 1)
         )
       )
     )
@@ -2145,7 +2145,7 @@
   (symbol (lib_id "Device:C") (at 26.67 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 255fc650-e574-458c-ad4d-973e9135a07b)
-    (property "Reference" "C25" (at 29.591 99.4953 0)
+    (property "Reference" "C1602" (at 29.591 99.4953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 29.21 102.87 0)
@@ -2165,7 +2165,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C25") (unit 1)
+          (reference "C1602") (unit 1)
         )
       )
     )
@@ -2174,7 +2174,7 @@
   (symbol (lib_id "Transistor_Array:ULN2003A") (at 179.07 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27c8de47-da66-4b5e-90c2-8c269884111e)
-    (property "Reference" "U22" (at 179.07 81.3902 0)
+    (property "Reference" "U1603" (at 179.07 81.3902 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ULN2003A" (at 179.07 83.9271 0)
@@ -2205,7 +2205,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "U22") (unit 1)
+          (reference "U1603") (unit 1)
         )
       )
     )
@@ -2214,7 +2214,7 @@
   (symbol (lib_id "power:+5V") (at 232.41 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285c0832-59a4-4b2d-aa1e-732ce234cc34)
-    (property "Reference" "#PWR059" (at 232.41 22.86 0)
+    (property "Reference" "#PWR0142" (at 232.41 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 232.41 15.4742 0)
@@ -2230,7 +2230,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -2239,7 +2239,7 @@
   (symbol (lib_id "Device:R") (at 38.1 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31a86712-d18a-409b-a93b-e8724777dbbb)
-    (property "Reference" "R45" (at 39.37 21.59 0)
+    (property "Reference" "R1610" (at 39.37 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15R" (at 39.37 29.21 0)
@@ -2259,7 +2259,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R45") (unit 1)
+          (reference "R1610") (unit 1)
         )
       )
     )
@@ -2268,7 +2268,7 @@
   (symbol (lib_id "Diode:SM4007") (at 113.03 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3469d343-14a1-489d-9a37-1aedd6a2e853)
-    (property "Reference" "D31" (at 106.68 40.64 90)
+    (property "Reference" "D1605" (at 106.68 40.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM4007" (at 115.57 42.545 90)
@@ -2288,7 +2288,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D31") (unit 1)
+          (reference "D1605") (unit 1)
         )
       )
     )
@@ -2297,7 +2297,7 @@
   (symbol (lib_id "power:+5V") (at 207.01 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38c9997f-98f7-41dd-8d03-cb90a6db820d)
-    (property "Reference" "#PWR060" (at 207.01 38.1 0)
+    (property "Reference" "#PWR0141" (at 207.01 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 207.01 30.7142 0)
@@ -2313,7 +2313,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -2322,7 +2322,7 @@
   (symbol (lib_id "74xx:74HC165") (at 176.53 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43e6d975-4327-45c5-bc0e-7b53a9f16d4e)
-    (property "Reference" "U20" (at 178.5494 22.9702 0)
+    (property "Reference" "U1602" (at 178.5494 22.9702 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC165" (at 178.5494 25.5071 0)
@@ -2356,7 +2356,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "U20") (unit 1)
+          (reference "U1602") (unit 1)
         )
       )
     )
@@ -2365,7 +2365,7 @@
   (symbol (lib_id "Device:R") (at 78.74 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 462248d2-b87e-41b7-a25f-dee24f7e9fa9)
-    (property "Reference" "R74" (at 80.01 71.12 0)
+    (property "Reference" "R1630" (at 80.01 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680k" (at 80.01 78.74 0)
@@ -2385,7 +2385,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R74") (unit 1)
+          (reference "R1630") (unit 1)
         )
       )
     )
@@ -2394,7 +2394,7 @@
   (symbol (lib_id "Device:R") (at 68.58 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c2ae1ad-2003-4108-884e-a0589763cc9c)
-    (property "Reference" "R48" (at 69.85 21.59 0)
+    (property "Reference" "R1621" (at 69.85 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47R" (at 69.85 29.21 0)
@@ -2414,7 +2414,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R48") (unit 1)
+          (reference "R1621") (unit 1)
         )
       )
     )
@@ -2423,7 +2423,7 @@
   (symbol (lib_id "Device:R") (at 36.83 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c3ed87c-5d21-44a8-84e7-7b06c7a350a3)
-    (property "Reference" "R70" (at 38.1 71.12 0)
+    (property "Reference" "R1609" (at 38.1 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150k" (at 38.1 78.74 0)
@@ -2443,7 +2443,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R70") (unit 1)
+          (reference "R1609") (unit 1)
         )
       )
     )
@@ -2452,7 +2452,7 @@
   (symbol (lib_id "Device:C") (at 39.37 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 525c7484-6d38-417c-8c69-998a9717a61f)
-    (property "Reference" "C26" (at 42.291 99.4953 0)
+    (property "Reference" "C1604" (at 42.291 99.4953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 42.291 102.0322 0)
@@ -2469,7 +2469,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C26") (unit 1)
+          (reference "C1604") (unit 1)
         )
       )
     )
@@ -2478,7 +2478,7 @@
   (symbol (lib_id "Device:C") (at 52.07 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54a04d7a-3d2e-4e38-9312-2f9abd5748e5)
-    (property "Reference" "C24" (at 54.991 86.7953 0)
+    (property "Reference" "C1605" (at 54.991 86.7953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (at 54.991 89.3322 0)
@@ -2495,7 +2495,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C24") (unit 1)
+          (reference "C1605") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
   (symbol (lib_id "Device:R") (at 25.4 74.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 595d2a19-4eae-4624-8266-83ed966c0965)
-    (property "Reference" "R69" (at 27.178 76.0984 0)
+    (property "Reference" "R1601" (at 27.178 76.0984 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 27.178 73.787 0)
@@ -2524,7 +2524,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R69") (unit 1)
+          (reference "R1601") (unit 1)
         )
       )
     )
@@ -2533,7 +2533,7 @@
   (symbol (lib_id "Device:R") (at 78.74 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a219abc-6b9c-4301-a9b5-0422e5410bbc)
-    (property "Reference" "R56" (at 80.01 34.29 0)
+    (property "Reference" "R1627" (at 80.01 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680R" (at 80.01 41.91 0)
@@ -2553,7 +2553,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R56") (unit 1)
+          (reference "R1627") (unit 1)
         )
       )
     )
@@ -2562,7 +2562,7 @@
   (symbol (lib_id "Device:D") (at 111.76 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b007908-c554-4acf-a300-8bc57829bcef)
-    (property "Reference" "D30" (at 113.792 24.5653 90)
+    (property "Reference" "D1603" (at 113.792 24.5653 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 113.792 27.1022 90)
@@ -2579,7 +2579,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D30") (unit 1)
+          (reference "D1603") (unit 1)
         )
       )
     )
@@ -2588,7 +2588,7 @@
   (symbol (lib_id "Device:R") (at 58.42 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ebcfadf-4b7c-4a23-aadc-499097f52521)
-    (property "Reference" "R54" (at 59.69 34.29 0)
+    (property "Reference" "R1617" (at 59.69 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330R" (at 59.69 41.91 0)
@@ -2608,7 +2608,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R54") (unit 1)
+          (reference "R1617") (unit 1)
         )
       )
     )
@@ -2617,7 +2617,7 @@
   (symbol (lib_id "Device:R") (at 48.26 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6958fc0f-7a17-4314-b37e-863b240593f3)
-    (property "Reference" "R46" (at 49.53 21.59 0)
+    (property "Reference" "R1611" (at 49.53 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R" (at 49.53 29.21 0)
@@ -2637,7 +2637,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R46") (unit 1)
+          (reference "R1611") (unit 1)
         )
       )
     )
@@ -2646,7 +2646,7 @@
   (symbol (lib_id "Device:R") (at 78.74 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6968ec5f-2064-437a-aa7b-3e741587051f)
-    (property "Reference" "R68" (at 80.01 59.69 0)
+    (property "Reference" "R1629" (at 80.01 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68k" (at 80.01 67.31 0)
@@ -2666,7 +2666,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R68") (unit 1)
+          (reference "R1629") (unit 1)
         )
       )
     )
@@ -2675,7 +2675,7 @@
   (symbol (lib_id "Device:R") (at 78.74 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a910b7d-2495-4c0c-9161-b2d135b581d9)
-    (property "Reference" "R49" (at 80.01 21.59 0)
+    (property "Reference" "R1626" (at 80.01 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68R" (at 80.01 29.21 0)
@@ -2695,7 +2695,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R49") (unit 1)
+          (reference "R1626") (unit 1)
         )
       )
     )
@@ -2704,7 +2704,7 @@
   (symbol (lib_id "Device:R") (at 26.67 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eee553d-855c-4875-b030-79745fdc1a53)
-    (property "Reference" "R51" (at 27.94 34.29 0)
+    (property "Reference" "R1603" (at 27.94 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 27.94 41.91 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R51") (unit 1)
+          (reference "R1603") (unit 1)
         )
       )
     )
@@ -2733,7 +2733,7 @@
   (symbol (lib_id "Device:R") (at 36.83 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 712ba63f-5684-4ada-bf19-33d9f4887303)
-    (property "Reference" "R64" (at 38.1 59.69 0)
+    (property "Reference" "R1608" (at 38.1 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 38.1 67.31 0)
@@ -2753,7 +2753,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R64") (unit 1)
+          (reference "R1608") (unit 1)
         )
       )
     )
@@ -2762,7 +2762,7 @@
   (symbol (lib_id "power:GND") (at 222.25 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8029004b-80c0-45dd-8243-d2ea882b9ff3)
-    (property "Reference" "#PWR065" (at 222.25 124.46 0)
+    (property "Reference" "#PWR0139" (at 222.25 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 122.5534 0)
@@ -2778,7 +2778,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -2787,7 +2787,7 @@
   (symbol (lib_id "Device:R") (at 58.42 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80d0bbc2-14f7-448d-8aa6-8c3905d3d9e6)
-    (property "Reference" "R47" (at 59.69 21.59 0)
+    (property "Reference" "R1616" (at 59.69 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 59.69 29.21 0)
@@ -2807,7 +2807,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R47") (unit 1)
+          (reference "R1616") (unit 1)
         )
       )
     )
@@ -2816,7 +2816,7 @@
   (symbol (lib_id "Device:R") (at 48.26 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8930e056-f2d8-4c67-bae0-a9109e005164)
-    (property "Reference" "R59" (at 49.53 46.99 0)
+    (property "Reference" "R1613" (at 49.53 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 49.53 54.61 0)
@@ -2836,7 +2836,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R59") (unit 1)
+          (reference "R1613") (unit 1)
         )
       )
     )
@@ -2845,7 +2845,7 @@
   (symbol (lib_id "Device:R") (at 36.83 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fea208a-c95b-4af1-8cfb-fa9fd7a4ea41)
-    (property "Reference" "R52" (at 38.1 34.29 0)
+    (property "Reference" "R1606" (at 38.1 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150R" (at 38.1 41.91 0)
@@ -2865,7 +2865,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R52") (unit 1)
+          (reference "R1606") (unit 1)
         )
       )
     )
@@ -2874,7 +2874,7 @@
   (symbol (lib_id "Device:R") (at 48.26 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90ae6bfb-f243-4944-90c1-f5cbc66f44d0)
-    (property "Reference" "R71" (at 50.8 71.12 0)
+    (property "Reference" "R1615" (at 50.8 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220k" (at 49.53 78.74 0)
@@ -2894,7 +2894,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R71") (unit 1)
+          (reference "R1615") (unit 1)
         )
       )
     )
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "Device:R") (at 26.67 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94e41cdc-8759-4486-af73-40eb8efc8ce1)
-    (property "Reference" "R63" (at 27.94 59.69 0)
+    (property "Reference" "R1605" (at 27.94 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 27.94 67.31 0)
@@ -2923,7 +2923,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R63") (unit 1)
+          (reference "R1605") (unit 1)
         )
       )
     )
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "Device:D_Bridge_+-AA") (at 68.58 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bec7db1-1e64-4d56-9b1e-d09046c4291f)
-    (property "Reference" "D39" (at 72.39 148.59 90)
+    (property "Reference" "D1602" (at 72.39 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Bridge_+-AA" (at 68.4078 141.6042 0)
@@ -2954,7 +2954,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D39") (unit 1)
+          (reference "D1602") (unit 1)
         )
       )
     )
@@ -2963,7 +2963,7 @@
   (symbol (lib_id "Device:R") (at 36.83 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d4a97d1-3e3b-49b3-9c29-1e138931f8bc)
-    (property "Reference" "R58" (at 38.1 46.99 0)
+    (property "Reference" "R1607" (at 38.1 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 38.1 54.61 0)
@@ -2983,7 +2983,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R58") (unit 1)
+          (reference "R1607") (unit 1)
         )
       )
     )
@@ -2992,7 +2992,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f13668b-6d08-4f3c-a2ba-ac08a4d444b6)
-    (property "Reference" "D37" (at 126.111 87.1128 90)
+    (property "Reference" "D1611" (at 126.111 87.1128 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "warmWhite_LED" (at 125.73 90.17 90)
@@ -3009,7 +3009,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D37") (unit 1)
+          (reference "D1611") (unit 1)
         )
       )
     )
@@ -3018,7 +3018,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0ed0cf4-295b-4fc7-bd36-6eb999bf6aaa)
-    (property "Reference" "D33" (at 126.111 50.2828 90)
+    (property "Reference" "D1608" (at 126.111 50.2828 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "blue_LED" (at 125.73 53.34 90)
@@ -3035,7 +3035,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D33") (unit 1)
+          (reference "D1608") (unit 1)
         )
       )
     )
@@ -3044,7 +3044,7 @@
   (symbol (lib_id "Device:C") (at 26.67 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6b9ce5b-ce63-4b6d-8d6a-6ca14c29661d)
-    (property "Reference" "C22" (at 29.591 86.7953 0)
+    (property "Reference" "C1601" (at 29.591 86.7953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12pF" (at 29.591 89.3322 0)
@@ -3061,7 +3061,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C22") (unit 1)
+          (reference "C1601") (unit 1)
         )
       )
     )
@@ -3070,7 +3070,7 @@
   (symbol (lib_id "power:GND") (at 179.07 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a70a6a3f-2724-48b3-b488-859475275951)
-    (property "Reference" "#PWR064" (at 179.07 123.19 0)
+    (property "Reference" "#PWR0145" (at 179.07 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 121.2834 0)
@@ -3086,7 +3086,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -3095,7 +3095,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 113.03 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab3a9192-fc13-4397-b471-70d208b5967e)
-    (property "Reference" "Q3" (at 118.237 154.1053 0)
+    (property "Reference" "Q1601" (at 118.237 154.1053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 118.237 156.6422 0)
@@ -3116,7 +3116,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "Q3") (unit 1)
+          (reference "Q1601") (unit 1)
         )
       )
     )
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "74xx:74HC595") (at 232.41 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad29f296-911e-4869-9e80-14be0f51c409)
-    (property "Reference" "U19" (at 234.4294 20.4302 0)
+    (property "Reference" "U1605" (at 234.4294 20.4302 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC595" (at 234.4294 22.9671 0)
@@ -3159,7 +3159,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "U19") (unit 1)
+          (reference "U1605") (unit 1)
         )
       )
     )
@@ -3168,7 +3168,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae0418f2-412f-4c9b-b974-9adcb9cccbd6)
-    (property "Reference" "D38" (at 126.111 99.8128 90)
+    (property "Reference" "D1612" (at 126.111 99.8128 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "orange_LED" (at 125.73 102.87 90)
@@ -3185,7 +3185,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D38") (unit 1)
+          (reference "D1612") (unit 1)
         )
       )
     )
@@ -3194,7 +3194,7 @@
   (symbol (lib_id "Isolator:EL817") (at 96.52 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af083a2f-696e-44c3-b92e-666559aaba41)
-    (property "Reference" "U23" (at 96.52 148.7002 0)
+    (property "Reference" "U1601" (at 96.52 148.7002 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 96.52 151.2371 0)
@@ -3216,7 +3216,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "U23") (unit 1)
+          (reference "U1601") (unit 1)
         )
       )
     )
@@ -3225,7 +3225,7 @@
   (symbol (lib_id "power:+5V") (at 176.53 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0bbf660-8644-4ec0-b27d-f0d845a61a64)
-    (property "Reference" "#PWR058" (at 176.53 22.86 0)
+    (property "Reference" "#PWR0143" (at 176.53 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 176.53 15.4742 0)
@@ -3241,7 +3241,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -3250,7 +3250,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3d3b17c-9847-4320-8cda-9e447501d681)
-    (property "Reference" "D36" (at 126.111 74.4128 90)
+    (property "Reference" "D1610" (at 126.111 74.4128 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "yellow_LED" (at 125.73 77.47 90)
@@ -3270,7 +3270,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D36") (unit 1)
+          (reference "D1610") (unit 1)
         )
       )
     )
@@ -3279,7 +3279,7 @@
   (symbol (lib_id "Diode_Bridge:MB6S") (at 41.91 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be44157b-a18a-48d4-bab4-6e502467f7e4)
-    (property "Reference" "D40" (at 50.2746 153.5009 0)
+    (property "Reference" "D1601" (at 50.2746 153.5009 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MB6S" (at 49.53 151.13 0)
@@ -3301,7 +3301,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D40") (unit 1)
+          (reference "D1601") (unit 1)
         )
       )
     )
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "Device:R") (at 68.58 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5acc4c3-7cbd-4b0c-af3b-11a1a1d16bee)
-    (property "Reference" "R73" (at 69.85 71.12 0)
+    (property "Reference" "R1625" (at 69.85 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "470k" (at 69.85 78.74 0)
@@ -3330,7 +3330,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R73") (unit 1)
+          (reference "R1625") (unit 1)
         )
       )
     )
@@ -3339,7 +3339,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccb54763-17b1-455a-9bfb-63a6ed047b65)
-    (property "Reference" "D32" (at 126.111 37.5828 90)
+    (property "Reference" "D1607" (at 126.111 37.5828 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "green_LED" (at 126.111 40.1197 90)
@@ -3356,7 +3356,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D32") (unit 1)
+          (reference "D1607") (unit 1)
         )
       )
     )
@@ -3365,7 +3365,7 @@
   (symbol (lib_id "Device:C") (at 39.37 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d09484df-9e9e-4941-b81f-c251ad2f83c3)
-    (property "Reference" "C23" (at 42.291 86.7953 0)
+    (property "Reference" "C1603" (at 42.291 86.7953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 42.291 89.3322 0)
@@ -3382,7 +3382,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C23") (unit 1)
+          (reference "C1603") (unit 1)
         )
       )
     )
@@ -3391,7 +3391,7 @@
   (symbol (lib_id "Device:R") (at 78.74 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5ae1d1c-ca47-4be4-8099-78232a731705)
-    (property "Reference" "R62" (at 80.01 46.99 0)
+    (property "Reference" "R1628" (at 80.01 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6k8" (at 80.01 54.61 0)
@@ -3411,7 +3411,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R62") (unit 1)
+          (reference "R1628") (unit 1)
         )
       )
     )
@@ -3420,7 +3420,7 @@
   (symbol (lib_id "power:GND") (at 232.41 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7604f6f-4d3e-400c-99ea-602a1f32571c)
-    (property "Reference" "#PWR061" (at 232.41 63.5 0)
+    (property "Reference" "#PWR0140" (at 232.41 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 61.5934 0)
@@ -3436,7 +3436,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -3445,7 +3445,7 @@
   (symbol (lib_id "Device:R") (at 90.17 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd164acc-4139-4580-9dfb-a76e9511fbbe)
-    (property "Reference" "R50" (at 91.44 21.59 0)
+    (property "Reference" "R1631" (at 91.44 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R1" (at 91.44 29.21 0)
@@ -3465,7 +3465,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R50") (unit 1)
+          (reference "R1631") (unit 1)
         )
       )
     )
@@ -3474,7 +3474,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9dbeca1-bfbb-4b66-9606-ec42280cc608)
-    (property "Reference" "D29" (at 126.111 24.8828 90)
+    (property "Reference" "D1606" (at 126.111 24.8828 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "red_LED" (at 126.111 27.4197 90)
@@ -3491,7 +3491,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D29") (unit 1)
+          (reference "D1606") (unit 1)
         )
       )
     )
@@ -3500,7 +3500,7 @@
   (symbol (lib_id "Device:C") (at 52.07 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edd215c4-a9b9-4994-8868-1c560b9f8c4e)
-    (property "Reference" "C27" (at 54.991 99.4953 0)
+    (property "Reference" "C1606" (at 54.991 99.4953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 54.991 102.0322 0)
@@ -3517,7 +3517,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "C27") (unit 1)
+          (reference "C1606") (unit 1)
         )
       )
     )
@@ -3526,7 +3526,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee01a1ac-2b17-41e9-9048-b15d836921bc)
-    (property "Reference" "D35" (at 126.111 61.7128 90)
+    (property "Reference" "D1609" (at 126.111 61.7128 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "white_LED" (at 125.73 64.77 90)
@@ -3543,7 +3543,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "D35") (unit 1)
+          (reference "D1609") (unit 1)
         )
       )
     )
@@ -3552,7 +3552,7 @@
   (symbol (lib_id "Device:R") (at 48.26 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0852334-0410-4a06-99ff-da7ea21a1167)
-    (property "Reference" "R53" (at 49.53 34.29 0)
+    (property "Reference" "R1612" (at 49.53 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 49.53 41.91 0)
@@ -3572,7 +3572,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "R53") (unit 1)
+          (reference "R1612") (unit 1)
         )
       )
     )
@@ -3581,7 +3581,7 @@
   (symbol (lib_id "power:+5V") (at 147.32 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid facf8fc0-dafe-4a51-8bd9-7e19dec5cb1f)
-    (property "Reference" "#PWR062" (at 147.32 63.5 0)
+    (property "Reference" "#PWR0146" (at 147.32 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 147.32 56.1142 0)
@@ -3597,7 +3597,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -3606,7 +3606,7 @@
   (symbol (lib_id "Transistor_Array:ULN2803A") (at 222.25 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fefde1d4-475d-4630-a58f-b7150f3343f3)
-    (property "Reference" "U21" (at 222.25 82.6602 0)
+    (property "Reference" "U1604" (at 222.25 82.6602 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ULN2803A" (at 222.25 85.1971 0)
@@ -3639,7 +3639,7 @@
     (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/0795014e-5257-4163-bd2a-866461c84c15"
-          (reference "U21") (unit 1)
+          (reference "U1604") (unit 1)
         )
       )
     )

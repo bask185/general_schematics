@@ -1,87 +1,10 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid fdb745a4-4a1a-40d5-b84b-c20e3b00156d)
+  (uuid d1cb43a0-bc81-49bf-86a7-735d10d531df)
 
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "screw terminal" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Screw_Terminal_01x02_1_1"
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center 0 -2.54) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.5334 -2.2098)
-            (xy 0.3302 -3.048)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.5334 0.3302)
-            (xy 0.3302 -0.508)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.3556 -2.032)
-            (xy 0.508 -2.8702)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.3556 0.508)
-            (xy 0.508 -0.3302)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -313,9 +236,6 @@
   (junction (at 156.21 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 9251a679-e14f-491b-9b3b-4169773e4cca)
   )
-  (junction (at 101.6 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 9593b9f1-af46-4166-97a6-596f109232fa)
-  )
   (junction (at 129.54 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 970604e1-e3af-403e-8d4a-19c9dbd6bf38)
   )
@@ -370,10 +290,6 @@
   (wire (pts (xy 101.6 74.93) (xy 115.57 74.93))
     (stroke (width 0) (type default))
     (uuid 264fb2aa-5efe-4c17-9303-ca0d68ae4eca)
-  )
-  (wire (pts (xy 93.98 93.98) (xy 101.6 93.98))
-    (stroke (width 0) (type default))
-    (uuid 2ce453c2-132e-42c8-b998-2d2bcf244d0f)
   )
   (wire (pts (xy 176.53 88.9) (xy 176.53 93.98))
     (stroke (width 0) (type default))
@@ -479,17 +395,9 @@
     (stroke (width 0) (type default))
     (uuid d95eb126-37e7-48c1-bc78-0f2a88843cf4)
   )
-  (wire (pts (xy 93.98 77.47) (xy 93.98 93.98))
-    (stroke (width 0) (type default))
-    (uuid db478544-8060-43ca-9476-dd90d3bbcf11)
-  )
   (wire (pts (xy 186.69 93.98) (xy 176.53 93.98))
     (stroke (width 0) (type default))
     (uuid de5b4e9c-80f8-4ea3-8cd9-c0331e32786f)
-  )
-  (wire (pts (xy 93.98 74.93) (xy 101.6 74.93))
-    (stroke (width 0) (type default))
-    (uuid ecbc22c0-6900-47ba-a671-8aa85517bcd5)
   )
   (wire (pts (xy 151.13 82.55) (xy 156.21 82.55))
     (stroke (width 0) (type default))
@@ -524,13 +432,13 @@
   (symbol (lib_id "Device:R") (at 158.75 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ec2ebfd-c346-44a3-b536-04ef468d62f8)
-    (property "Reference" "R42" (at 162.56 76.2 0)
+    (property "Reference" "R1503" (at 165.1 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150k" (at 165.1 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 160.528 78.74 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 160.528 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 78.74 0)
@@ -542,9 +450,14 @@
     (pin "1" (uuid cc2c69c0-9f17-4276-8146-58b6c95e3b1e))
     (pin "2" (uuid d2e9bb83-246f-498f-9a85-ec08a2ecca4f))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "R903") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "R42") (unit 1)
+          (reference "R1503") (unit 1)
         )
       )
     )
@@ -553,13 +466,13 @@
   (symbol (lib_id "Device:C") (at 139.7 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d2fc9b0-6aa4-44d7-a827-3a3ccdc75959)
-    (property "Reference" "C16" (at 139.7 47.4812 90)
+    (property "Reference" "C1502" (at 139.7 47.4812 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 139.7 50.0181 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 143.51 52.3748 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 143.51 52.3748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 53.34 0)
@@ -571,9 +484,14 @@
     (pin "1" (uuid f8cd1683-0a88-4017-a71d-6df301d0ea71))
     (pin "2" (uuid 8c1d77f8-7e72-4f33-92b5-a5c55c312fc1))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C902") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C16") (unit 1)
+          (reference "C1502") (unit 1)
         )
       )
     )
@@ -582,13 +500,13 @@
   (symbol (lib_id "Device:C") (at 139.7 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34e7caef-13e9-476b-8051-ec7c1722aeec)
-    (property "Reference" "C17" (at 139.7 57.6412 90)
+    (property "Reference" "C1503" (at 139.7 57.6412 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22nF" (at 139.7 60.1781 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 143.51 62.5348 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 143.51 62.5348 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 63.5 0)
@@ -600,9 +518,14 @@
     (pin "1" (uuid 76554e5d-f103-46e6-a78e-7e6b0ac81dce))
     (pin "2" (uuid 49b6b563-e394-47d5-a80b-bda909a79e26))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C903") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C17") (unit 1)
+          (reference "C1503") (unit 1)
         )
       )
     )
@@ -611,7 +534,7 @@
   (symbol (lib_id "Device:L") (at 149.86 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 352bcebc-141f-4980-89ba-bfb1b24112d5)
-    (property "Reference" "L1" (at 149.86 70.7222 90)
+    (property "Reference" "L1501" (at 149.86 70.7222 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L" (at 149.86 73.2591 90)
@@ -629,9 +552,14 @@
     (pin "1" (uuid a5f783e7-ea52-447e-bc98-90eb5ef612bc))
     (pin "2" (uuid a1230e51-a25e-405f-a529-6d77ce24c790))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "L901") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "L1") (unit 1)
+          (reference "L1501") (unit 1)
         )
       )
     )
@@ -640,13 +568,13 @@
   (symbol (lib_id "Device:C") (at 176.53 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e405bc0-f562-4ea0-af0d-1beef4032fda)
-    (property "Reference" "C20" (at 179.451 84.2553 0)
+    (property "Reference" "C1505" (at 179.451 84.2553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 179.451 86.7922 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.4952 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 177.4952 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 85.09 0)
@@ -658,35 +586,14 @@
     (pin "1" (uuid 8d0454fb-e81d-4e29-8689-800ea35a0628))
     (pin "2" (uuid 3937f4d7-fdea-40f6-b0f5-2fae538ef4f7))
     (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C20") (unit 1)
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C905") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 88.9 74.93 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 48093090-3d87-4cfe-af50-2822fcc2acbc)
-    (property "Reference" "J17" (at 86.868 75.3653 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "power" (at 86.868 77.9022 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 88.9 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 88.9 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67f9b3bf-6a58-46de-bd3f-889d20b5ab94))
-    (pin "2" (uuid fdc82cbe-6ec7-4791-90d7-4f2a6e34d96d))
-    (instances
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "J17") (unit 1)
+          (reference "C1505") (unit 1)
         )
       )
     )
@@ -695,13 +602,13 @@
   (symbol (lib_id "Device:C") (at 101.6 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697a2a42-69fd-436b-8fcf-3eb612b271b7)
-    (property "Reference" "C18" (at 104.521 77.9053 0)
+    (property "Reference" "C1501" (at 104.521 77.9053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 104.521 80.4422 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 102.5652 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 102.5652 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 78.74 0)
@@ -713,9 +620,14 @@
     (pin "1" (uuid a80649f0-5ca6-458f-b68c-85b937d5db7d))
     (pin "2" (uuid 0cb1c78a-480e-4a30-ae05-22e63b50d461))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C901") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C18") (unit 1)
+          (reference "C1501") (unit 1)
         )
       )
     )
@@ -724,13 +636,13 @@
   (symbol (lib_id "Device:R") (at 156.21 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d99c491-33ce-40dc-acc4-86f4b22e23c1)
-    (property "Reference" "R43" (at 157.988 86.7953 0)
+    (property "Reference" "R1502" (at 157.988 86.7953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 157.988 89.3322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 154.432 87.63 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.432 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 87.63 0)
@@ -742,9 +654,14 @@
     (pin "1" (uuid cdf4e69f-14bf-424d-8e1d-1110bc7998e1))
     (pin "2" (uuid 585daf34-da4b-48a1-a171-6d12182cd44e))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "R902") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "R43") (unit 1)
+          (reference "R1502") (unit 1)
         )
       )
     )
@@ -753,7 +670,7 @@
   (symbol (lib_id "custom_kicad_lib_sk:MT499A") (at 132.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa23ec5a-3a93-4f2d-aca1-66f8b542d6e4)
-    (property "Reference" "U18" (at 134.0994 66.201 0)
+    (property "Reference" "U1501" (at 134.0994 66.201 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MT2499A" (at 134.0994 68.7379 0)
@@ -778,9 +695,14 @@
     (pin "8" (uuid a2e3f1d8-3e18-4f01-aa94-137cd101809d))
     (pin "9" (uuid 4d1d38b3-8e20-4755-a392-8681465c8fe6))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "U901") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "U18") (unit 1)
+          (reference "U1501") (unit 1)
         )
       )
     )
@@ -789,13 +711,13 @@
   (symbol (lib_id "Device:C") (at 166.37 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b52a215e-a06d-4895-a903-68c5aea8acfd)
-    (property "Reference" "C19" (at 169.291 84.2553 0)
+    (property "Reference" "C1504" (at 169.291 84.2553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 169.291 86.7922 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 167.3352 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.3352 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 166.37 85.09 0)
@@ -807,9 +729,14 @@
     (pin "1" (uuid 076dedcc-771e-437a-814c-4567b92a4b5a))
     (pin "2" (uuid 193c6262-8bec-41dc-80dc-fa3cc70dacec))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C904") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C19") (unit 1)
+          (reference "C1504") (unit 1)
         )
       )
     )
@@ -818,13 +745,13 @@
   (symbol (lib_id "Device:R") (at 156.21 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7f8440c-23b7-437b-b935-4fbe03161fd7)
-    (property "Reference" "R41" (at 152.4 76.2 0)
+    (property "Reference" "R1501" (at 149.86 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220k" (at 149.86 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 154.432 78.74 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.432 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 78.74 0)
@@ -836,9 +763,14 @@
     (pin "1" (uuid 78e17a01-26e3-468c-86a7-6890ed9e73c4))
     (pin "2" (uuid 99ac923f-78c4-4f03-8904-9f70d791f7bc))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "R901") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "R41") (unit 1)
+          (reference "R1501") (unit 1)
         )
       )
     )
@@ -847,13 +779,13 @@
   (symbol (lib_id "Device:C") (at 186.69 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce7709e8-9d69-44d9-bda8-89cdcce30ae9)
-    (property "Reference" "C21" (at 189.611 84.2553 0)
+    (property "Reference" "C1506" (at 189.611 84.2553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 189.611 86.7922 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 187.6552 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 187.6552 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 85.09 0)
@@ -865,11 +797,20 @@
     (pin "1" (uuid ca2fd8b7-e4d3-419a-a0cc-a8b1f32d3e05))
     (pin "2" (uuid 5ac09499-36ac-4382-80a3-f9a46e2e4e9b))
     (instances
+      (project "buck_5V"
+        (path "/d1cb43a0-bc81-49bf-86a7-735d10d531df"
+          (reference "C906") (unit 1)
+        )
+      )
       (project "general_schematics"
         (path "/e777d9ec-d073-4229-a9e6-2cf85636e407/891f98c0-3628-49fd-a4d5-1cf0156a22a0"
-          (reference "C21") (unit 1)
+          (reference "C1506") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
