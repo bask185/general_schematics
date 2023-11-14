@@ -8,3 +8,4 @@
 8 EEPROM        8xx
 9 Buck 5V       9xx
 10 CDU         10xx
+11 Buck 12V    11xx <-- new
