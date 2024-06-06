@@ -9,7 +9,7 @@
 		(members "SDA" "SCL")
 	)
 	(bus_alias "Lnet"
-		(members "Rx" "Tx")
+		(members "Lnet_Rx" "Lnet_Tx")
 	)
 	(bus_alias "Serial"
 		(members "Tx" "Rx" "Reset")
