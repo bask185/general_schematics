@@ -1,230 +1,506 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e777d9ec-d073-4229-a9e6-2cf85636e407)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 148.59 85.09) (size 20.32 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0795014e-5257-4163-bd2a-866461c84c15)
-    (property "Sheetname" "basic components" (at 148.59 84.3784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "basic components.kicad_sch" (at 148.59 103.4546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 123.19 55.88) (size 21.59 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 38d599ac-34a4-48d6-818e-d419faf54082)
-    (property "Sheetname" "LDR" (at 123.19 55.1684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "LDR.kicad_sch" (at 123.19 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 148.59 111.76) (size 19.05 11.43)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4377a106-93b9-41cd-88a1-8112c9568850)
-    (property "Sheetname" "5V LDO" (at 154.94 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "voltageRegulator.kicad_sch" (at 151.13 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "5V" passive (at 167.64 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a64acc62-4a60-417d-9fcb-889a3d61631c)
-    )
-    (pin "Vin" passive (at 148.59 114.3 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 604fda65-6efb-4feb-ab03-7d28e26c74ac)
-    )
-    (pin "GND" passive (at 158.75 123.19 270)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8dd964d0-595e-43f2-8c33-36912a18e395)
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "18"))
-      )
-    )
-  )
-
-  (sheet (at 123.19 33.02) (size 21.59 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 875460ba-42a9-4dc8-b32a-8b7fb9496129)
-    (property "Sheetname" "railcom" (at 123.19 32.3084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "railcom.kicad_sch" (at 123.19 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 98.425 112.395) (size 17.145 19.685) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8cef4f13-71e4-4599-8e20-29c3f09ac934)
-    (property "Sheetname" "L298H" (at 98.425 111.6834 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "H_bridge.kicad_sch" (at 98.425 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 67.31 57.15) (size 20.32 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9476ca91-c6eb-46e7-bd6a-31c98618510b)
-    (property "Sheetname" "uni_stepper" (at 67.31 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "uni_stepper.kicad_sch" (at 67.31 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 66.675 32.385) (size 20.955 15.875)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9c8f6162-972e-4a6a-9072-cbd128d102d4)
-    (property "Sheetname" "bipolair_stepper" (at 66.675 31.6734 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "bipolair_stepper.kicad_sch" (at 59.69 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 124.46 111.76) (size 20.32 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid aabb776b-8585-481a-9ba8-7761b2bc46d6)
-    (property "Sheetname" "edits" (at 124.46 111.0484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "edits.kicad_sch" (at 124.46 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 152.4 33.02) (size 19.05 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bccc2f0e-4293-4340-930b-a120cb08f970)
-    (property "Sheetname" "atmega2560" (at 152.4 32.3084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "atmega2560.kicad_sch" (at 152.4 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "17"))
-      )
-    )
-  )
-
-  (sheet (at 67.31 111.76) (size 20.32 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c3ae8e23-d3b7-46ce-84c2-3bde61a5ce74)
-    (property "Sheetname" "DCC" (at 67.31 111.0484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "DCC.kicad_sch" (at 67.31 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 67.31 83.82) (size 20.32 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c8788370-a7f5-4096-b7be-5f9bdb412f73)
-    (property "Sheetname" "servo" (at 67.31 83.1084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "servo.kicad_sch" (at 67.31 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 123.19 85.09) (size 21.59 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f6483e49-7b85-4a34-9d17-dfb7f9079bae)
-    (property "Sheetname" "current_detector" (at 123.19 84.3784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "current_detector.kicad_sch" (at 123.19 103.4546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "general_schematics"
-        (path "/e777d9ec-d073-4229-a9e6-2cf85636e407" (page "12"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e777d9ec-d073-4229-a9e6-2cf85636e407")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "I2C"
+		(members "SDA" "SCL")
+	)
+	(bus_alias "Lnet"
+		(members "Rx" "Tx")
+	)
+	(bus_alias "Serial"
+		(members "Tx" "Rx" "Reset")
+	)
+	(sheet
+		(at 148.59 85.09)
+		(size 20.32 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0795014e-5257-4163-bd2a-866461c84c15")
+		(property "Sheetname" "basic components"
+			(at 148.59 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "basic components.kicad_sch"
+			(at 148.59 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 55.88)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38d599ac-34a4-48d6-818e-d419faf54082")
+		(property "Sheetname" "LDR"
+			(at 123.19 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDR.kicad_sch"
+			(at 123.19 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 111.76)
+		(size 19.05 11.43)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4377a106-93b9-41cd-88a1-8112c9568850")
+		(property "Sheetname" "5V LDO"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltageRegulator.kicad_sch"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" passive
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a64acc62-4a60-417d-9fcb-889a3d61631c")
+		)
+		(pin "Vin" passive
+			(at 148.59 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "604fda65-6efb-4feb-ab03-7d28e26c74ac")
+		)
+		(pin "GND" passive
+			(at 158.75 123.19 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8dd964d0-595e-43f2-8c33-36912a18e395")
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 33.02)
+		(size 21.59 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "875460ba-42a9-4dc8-b32a-8b7fb9496129")
+		(property "Sheetname" "railcom"
+			(at 123.19 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "railcom.kicad_sch"
+			(at 123.19 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 98.425 112.395)
+		(size 17.145 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cef4f13-71e4-4599-8e20-29c3f09ac934")
+		(property "Sheetname" "L298H"
+			(at 98.425 111.6834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H_bridge.kicad_sch"
+			(at 98.425 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 57.15)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9476ca91-c6eb-46e7-bd6a-31c98618510b")
+		(property "Sheetname" "uni_stepper"
+			(at 67.31 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uni_stepper.kicad_sch"
+			(at 67.31 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.675 32.385)
+		(size 20.955 15.875)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c8f6162-972e-4a6a-9072-cbd128d102d4")
+		(property "Sheetname" "bipolair_stepper"
+			(at 66.675 31.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bipolair_stepper.kicad_sch"
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 111.76)
+		(size 20.32 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aabb776b-8585-481a-9ba8-7761b2bc46d6")
+		(property "Sheetname" "edits"
+			(at 124.46 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edits.kicad_sch"
+			(at 124.46 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 33.02)
+		(size 19.05 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bccc2f0e-4293-4340-930b-a120cb08f970")
+		(property "Sheetname" "atmega2560"
+			(at 152.4 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atmega2560.kicad_sch"
+			(at 152.4 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 111.76)
+		(size 20.32 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3ae8e23-d3b7-46ce-84c2-3bde61a5ce74")
+		(property "Sheetname" "DCC"
+			(at 67.31 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCC.kicad_sch"
+			(at 67.31 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 83.82)
+		(size 20.32 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8788370-a7f5-4096-b7be-5f9bdb412f73")
+		(property "Sheetname" "servo"
+			(at 67.31 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo.kicad_sch"
+			(at 67.31 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 85.09)
+		(size 21.59 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6483e49-7b85-4a34-9d17-dfb7f9079bae")
+		(property "Sheetname" "current_detector"
+			(at 123.19 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_detector.kicad_sch"
+			(at 123.19 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "general_schematics"
+				(path "/e777d9ec-d073-4229-a9e6-2cf85636e407"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
